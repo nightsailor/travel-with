@@ -23,7 +23,7 @@ export default function Home() {
         </div>
         <div className="homeWrapper">
             <div className="homeText">
-                A Travel Buddy that recommends that recommmends sustainable journey. 
+                A Travel Buddy that recommmends sustainable journey. 
             </div>
             <div className="homeIcon">
                 <img
