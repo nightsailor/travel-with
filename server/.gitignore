@@ -1,5 +1,8 @@
 /node_modules
 
-/public
+public/assets
+public/static
+public/asset-manifest.json
+public/index.html
 
 config/.env
