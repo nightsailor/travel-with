@@ -1,10 +1,11 @@
 const dotenv = require("dotenv");
 const mongoose = require('mongoose');
 
-dotenv.config();
+dotenv.config({ path: './config/.env' });
 
+// Step 2
 mongoose.connect(
-    process.env.MONGO_URL,
+    process.env.MONGO_URL || 'mongodb://localhost/witty-travel',
     { useNewUrlParser: true, useUnifiedTopology: true },
     () => {
       console.log("Connected to MongoDB");

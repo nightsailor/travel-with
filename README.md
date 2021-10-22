@@ -1,10 +1,11 @@
-# Online School
+# Witty Travel
 
 ### 1. Setting up the Backend
 
 cd server
 
-yarn add express mongoose nodemon bcrypt dotenv
+yarn add express mongoose bcrypt dotenv
+yarn add nodemon concurrently -D
 
 nodemon index.js
 
